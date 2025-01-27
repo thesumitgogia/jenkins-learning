@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/thesumitgogia/jenkins-learning.git', credentialsId: 'meongithubserver'
+                git branch: 'main', url: 'https://github.com/thesumitgogia/jenkins-learning.git', credentialsId: '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'
 
             }
         }
